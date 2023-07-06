@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{
+	display: grid;
+	grid-template-columns: 4fr 5fr 5fr;
+	grid-template-rows: 50px 200px 800px 600px 400px 600px;
+	grid-template-areas: 
+		"header header header"
+		"slider slider slider"
+		"middle1 middle1 middle1"
+		"middle2 middle2 middle2"
+		"text1 text1 text1"
+		"img01 img01 img01"
+	
+	
+}
+
+.item{
+	background-color: #28FF55;
+	border: 1px solid #FFFFFF;
+	
+	
+}
+
+.item1{
+	grid-area: header;
+	
+	
+}
+
+.item2{
+	grid-area: slider;
+	
+	
+}
+
+.item3{
+	grid-area: middle1;
+	display: flex;
+	justify-content: center;
+}
+
+.data{
+	width: 30%;
+	height: 500px;
+	background-color: aqua;
+	float: left;
+	margin:150px 20px;
+	
+	
+	
+}
+
+
+.item4{
+	grid-area: middle2;
+	display: flex;
+	justify-content: center;
+}
+
+
+.middle{
+	width: 80%;
+	background-color: #FF2124;
+	margin: 30px;
+	
+	
+	
+	
+}
+
+.text{
+	background-color: #FFFFFF;
+	grid-area: text1;
+	
+	
+	
+}
+
+
+.img{
+	width: 40%;
+	height: 500px;
+	background-color: #FFFD00;
+	margin: 50px 10px;
+	float: left;
+	
+	
+	
+	
+}
+
+.item6{
+	grid-area: img01;
+	display: flex;
+	justify-content:center; 
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
